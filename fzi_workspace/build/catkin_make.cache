@@ -1,0 +1,2 @@
+image_generator
+-DCATKIN_DEVEL_PREFIX=/home/assa/Code/ROS_projects/fzi_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/assa/Code/ROS_projects/fzi_workspace/install -G Unix Makefiles

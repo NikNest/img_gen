@@ -1,0 +1,5 @@
+# generated from catkin/cmake/template/order_packages.context.py.in
+source_root_dir = '/home/assa/Code/ROS_projects/fzi_workspace/src'
+whitelisted_packages = ''.split(';') if '' != '' else []
+blacklisted_packages = ''.split(';') if '' != '' else []
+underlay_workspaces = '/home/assa/Code/ROS_projects/fzi_workspace/devel;/home/assa/kitcar/kitcar-jetson/devel;/home/assa/kitcar/kitcar-gazebo-simulation/simulation/devel;/home/assa/kitcar/kitcar-rosbag/devel;/home/assa/kitcar/kitcar-ros/KITcar_rqt/devel;/home/assa/kitcar/kitcar-ros/KITcar_debugger/devel;/home/assa/kitcar/kitcar-ros/KITcar_brain/devel;/home/assa/kitcar/kitcar-ros/KITcar_external/devel;/opt/ros/noetic'.split(';') if '/home/assa/Code/ROS_projects/fzi_workspace/devel;/home/assa/kitcar/kitcar-jetson/devel;/home/assa/kitcar/kitcar-gazebo-simulation/simulation/devel;/home/assa/kitcar/kitcar-rosbag/devel;/home/assa/kitcar/kitcar-ros/KITcar_rqt/devel;/home/assa/kitcar/kitcar-ros/KITcar_debugger/devel;/home/assa/kitcar/kitcar-ros/KITcar_brain/devel;/home/assa/kitcar/kitcar-ros/KITcar_external/devel;/opt/ros/noetic' != '' else []

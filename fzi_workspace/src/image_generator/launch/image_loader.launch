@@ -1,0 +1,13 @@
+<launch>
+  <arg name="load_path" default="$(find image_generator)/data/imgs" />
+  <arg name="pub_freq" default="1." /> 
+  <arg name="looped" default="True"/>
+
+  <node name="image_loader" ns="image_generator" pkg="image_generator" type="image_loader" output="screen">
+
+   <param name="load_path" value="$(arg load_path)" type="str"/>
+   <param name="pub_freq" value="$(arg pub_freq)"/> 
+   <param name="looped" value="$(arg looped)" type="bool"/> 
+   <!-- <rosparam file="$(find image_generator)/param/image_loader/default.yaml" command="load" ns="default" /> -->
+  </node>
+</launch>

@@ -1,0 +1,9 @@
+<launch>
+  <arg name="detection_path" default="$(find image_generator)/data/detections/detections.yaml"/>
+
+  <node name="detector_wrapper" ns="image_generator" pkg="image_generator" type="detector_wrapper" output="screen">
+    <rosparam file="$(find image_generator)data/detections/detections.yaml" command="load" ns="default" />
+    
+    <param name="detection_path" value="$(arg detection_path)" type="str"/>
+  </node>
+</launch>

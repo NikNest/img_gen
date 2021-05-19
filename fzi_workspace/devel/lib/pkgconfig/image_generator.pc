@@ -1,0 +1,8 @@
+prefix=/home/assa/Code/ROS_projects/fzi_workspace/devel
+
+Name: image_generator
+Description: Description of image_generator
+Version: 0.0.0
+Cflags: -I/home/assa/Code/ROS_projects/fzi_workspace/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs message_runtime

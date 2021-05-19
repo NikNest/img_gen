@@ -1,0 +1,4 @@
+<launch>
+  <node name="bb_drawer" ns="image_generator" pkg="image_generator" type="bb_drawer" output="screen">
+  </node>
+</launch>
